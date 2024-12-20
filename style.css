@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    /* width: 100vw; */
+
+}
+.header h2{
+    font-size: 32px;
+}
+.port{
+    font-size: 42px;
+    font-weight: 600px;
+}
+    
+
+.link{
+    height: 32px;
+    
+    
+}
+#links{
+    padding-right: 40px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #28261B ;
+    text-decoration: none;
+
+}
+
+#heading{
+    font-size: 120px;
+    line-height: 120px;
+    font-weight: 700;
+    text-align: center;
+    color: #28261B;
+    width: 100%
+}
+
+.main-container{
+    padding: 48px;
+}
+
+#main{
+    padding-block: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.img{
+    border: 1.5px solid #00000000;
+
+    width: 100%;
+    padding-bottom: 96px;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content:space-between;
+}
+.project1{
+    width: 413px;
+    height: 275px;
+    border: 1.5px solid #00000000;
+    border-radius: 22px;
+    transition: 1s;
+
+}
+
+.project1:hover{
+    transform: scale(1.05);
+}
+
+
+
+h3,p{
+    margin-top: -5px;
+}
+h3{
+    font-weight:lighter ;
+    margin-top: 2px;
+}
+p{
+    color: #2E2A149E;
+    font-weight: 400;
+
+}
+
+
+@media screen  and (max-width:550px){
+    #heading{
+        font-size: 50px;
+    }
+    .project1{
+        size: 300px;
+    }
+    .img{
+        min-width: 400px ;
+
+    }
+    
+    
+}
+button{
+    background-color: black;
+    color:white; 
+    width:100px;
+    height:30px; 
+    border-radius: 5px;
+}
+input[type="text"]{
+    width:40px;
+    height: 40px;
+    text-align: center;
+    border-radius:8px;
+}
+  
+
+.description {
+    margin: 40px 20px;
+}
+  
+.contact {
+    text-align: left;
+    margin: 40px 20px;
+    font-weight: bold;
+}
+.contact p{
+    text-align: right;
+    color: black;
+}
+  
+.contact form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+
+.skip{
+    text-decoration: none;
+    color: black;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.footer {
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.back{
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+
+.submit{
+  width: 300px;
+  border-radius: 5px;
+}
+.num{
+    margin-top : 40px;
+}
+.testimonial {
+    
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+    padding: 48px 0;
+}
+
+.testimonial-heading p {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:black;
+    padding: 60px;
+
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
+.testimonial-card-1 {
+    
+    padding: 24px;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+}
+
+.testimonial-card-2 {
+    
+    padding: 24px;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+}
+
+.testimonial-card-3 {
+    
+    padding: 24px;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+}
+
+.testimonial-card-4 {
+    
+    padding: 24px;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+}
+
+.testimonial-card-5 {
+    
+    padding: 24px;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+}
+
+.testimonial-card-6 {
+    
+    padding: 24px;
+    margin-right: 16px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+}
+
+.profile-container {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    margin-top: 0;
+}
+
+.profile-container img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(214, 221, 230, 0.2);
+    margin-right: 12px;
+}
+
+.profile-name-and-work {
+    height: 40px;
+}
+
+.profile-name {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    margin: 0;
+}
+.profile-work {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:black;
+    margin: 0;
+}
+
+.comment-container {
+    width: 240px;
+    padding: 0 auto 8px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-container {
+    height: 72px;
+    width: 0;
+    border-radius: 1px;
+    border: 1.5px solid rgba(214, 221, 230, 0.2);
+    margin-left: 24px;
+    margin-right: 36px;
+}
+.remark {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+.alpha{
+    border-bottom: 1px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48x;
+}
+.Graffiti-Art{
+    border-top: 1px;
+    padding-top: 96px;
+    padding-bottom: 24px;
+    gap: 24px;
+}
