@@ -34,6 +34,8 @@
     font-weight: 400;
     color: #28261B ;
     text-decoration: none;
+    font-family: "Bebas Neue", serif;
+    font-weight: bold;
 
 }
 
@@ -44,6 +46,7 @@
     text-align: center;
     color: #28261B;
     width: 100%
+    
 }
 
 .main-container{
@@ -132,7 +135,7 @@ input[type="text"]{
     margin: 40px 20px;
 }
   
-.contact {
+.contact h2{
     text-align: left;
     margin: 40px 20px;
     font-weight: bold;
@@ -204,6 +207,7 @@ input[type="text"]{
     text-decoration-skip-ink: none;
     color:black;
     padding: 60px;
+    
 
 }
 
@@ -355,4 +359,46 @@ input[type="text"]{
     padding-top: 96px;
     padding-bottom: 24px;
     gap: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.beta{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    justify-content: space-between;
+}
+.beta p{
+    font-family: "Roboto Mono", serif;
+}
+/* .beta h2{
+    font-family: "Roboto Mono", serif;
+} */
+.Siddhant{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: white;
+}
+.projects-container h5{
+    font-family: "Roboto Mono", serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+.projects-container p{
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "Roboto Mono", serif;
+}
+.gamma{
+    text-align: center;
+    margin-top:80px;
+    font-family: "Bebas Neue", serif;
 }
